@@ -1,0 +1,47 @@
+body {
+  background: #f2f2f2;
+}
+
+.add-btn {
+  content: "\002B";
+  background-color: #3498ff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 16px;
+  margin-top: 1%;
+  cursor: pointer;
+  margin-left: 90%;
+  position: relative;
+}
+
+.card {
+  position: relative;
+  left: 50%;
+  top: 70%;
+  width: 70%;
+  transform: translate(-50%, -50%);
+  background: #f2f2f2;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+  padding: 10px;
+  margin: 15px;
+}
+
+.clickable {
+  width: 50%;
+}
+
+.drawer-action {
+  position: sticky;
+  margin-top: 100%;
+}
+
+.bading {
+  margin: 30px;
+}
